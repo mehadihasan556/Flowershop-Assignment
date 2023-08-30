@@ -49,8 +49,8 @@ nav a {
 }
 
 .banner-title {
-    font-size: 70px;
-    font-weight: 700px;
+    font-size: 50px;
+    font-weight: 500px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -114,13 +114,16 @@ nav a {
     text-align: center;
     margin-top: 10px;
 }
-.section-description{margin-top: 20px;
-padding:15px,35px;}
+
+.section-description {
+    margin-top: 20px;
+    padding: 15px, 35px;
+}
 
 .text-description {
     text-align: center;
-    margin-top:auto;
-    padding:30px;
+    margin-top: auto;
+    padding: 30px;
 }
 
 .flower-container {
@@ -145,8 +148,8 @@ padding:15px,35px;}
 /* footer related styles */
 .footer-container {
     background-color: black;
-    max-width:auto;
-    max-height:auto;
+    max-width: auto;
+    max-height: auto;
     margin-top: 30px;
 }
 
