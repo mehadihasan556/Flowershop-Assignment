@@ -6,30 +6,33 @@ body {
 /* nav bar extra section(for bonus marks) */
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
-    margin: 0 200px;
+    margin: auto;
+
 }
 
 nav>ul {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    gap: 20px;
 }
 
 nav li {
     list-style: none;
-    margin-right: 50 px;
+    margin-right: 10 px;
     font-size: medium;
 }
 
 nav a {
     text-decoration: none;
+    color: palevioletred;
 }
 
 /* banner related styles */
 
 .banner {
-    background-color:floralwhite;
+    background-color: floralwhite;
     width: 1920;
     height: 850;
     display: flex;
@@ -54,15 +57,22 @@ nav a {
 .banner-pic {
     width: 500px;
 }
-.main{margin-top:20px;}
+
+.main {
+    margin-top: 20px;
+}
 
 /* Featured Flowers related styles */
 
-.instagram{margin-top:30px;}
+.instagram {
+    margin-top: 30px;
+}
+
 .section-title {
     font-size: 30px;
     text-align: center;
-    
+    padding: 20px;
+
 }
 
 .section-description {
@@ -87,7 +97,7 @@ nav a {
 .main {
     max-width: 1920px;
     margin: 0 auto;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .color {
@@ -102,11 +112,15 @@ nav a {
 
 .section-title {
     text-align: center;
-    margin-top:10px;
+    margin-top: 10px;
 }
+.section-description{margin-top: 20px;
+padding:15px,35px;}
 
 .text-description {
     text-align: center;
+    margin-top:auto;
+    padding:30px;
 }
 
 .flower-container {
@@ -116,7 +130,7 @@ nav a {
 
 .flower-background {
     background-image: url('../images/Rectangle\ 9.png');
-    max-width:0 auto;
+    max-width: 0 auto;
     margin-top: 30px;
     background-repeat: no-repeat;
 }
@@ -131,8 +145,8 @@ nav a {
 /* footer related styles */
 .footer-container {
     background-color: black;
-    max-width: 1920px;
-    max-height: 450px;
+    max-width:auto;
+    max-height:auto;
     margin-top: 30px;
 }
 
