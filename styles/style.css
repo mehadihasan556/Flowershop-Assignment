@@ -1,70 +1,151 @@
-body{font-family:'Lato',sans-serif;}
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
 /* nav bar extra section(for bonus marks) */
-nav{display:flex;
-justify-content:space-around;
-align-items: center;
-margin:0 200px;}
-nav>ul{display:flex;
-align-items:flex-end;}
-nav li{list-style:none;
-margin-right:50 px;
-font-size:medium;}
-nav a{text-decoration:none;}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 200px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: flex-end;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50 px;
+    font-size: medium;
+}
+
+nav a {
+    text-decoration: none;
+}
 
 /* banner related styles */
 
-.banner{background-color: #ECB9BD;
-width:1920;
-height:850;
-display:flex;
-align-items: center;}
+.banner {
+    background-color:floralwhite;
+    width: 1920;
+    height: 850;
+    display: flex;
+    align-items: center;
+}
 
-.btn-primary{background:#E55473;
-border-radius:5px;
-border:0;
-color:#FFFFFF;
-font-size:20px;
-font-weight: bold;}
+.btn-primary {
+    background: #E55473;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
 
-.banner title{font: size 80px;
-font-weight:700px;
-font-family:'Lato',sans-serif;}
+.banner-title {
+    font-size: 70px;
+    font-weight: 700px;
+    font-family: 'Lato', sans-serif;
+}
 
-.banner-pic{width:500px;}
+.banner-pic {
+    width: 500px;
+}
+.main{margin-top:20px;}
 
 /* Featured Flowers related styles */
-.section-title{text-align:center;}
-.section-description{text-align:center;}
-.featured-flowers{display:flex;
-gap:50px;
-justify-content: center;}
-.our-flowers{margin-top:70px;}
 
-.flowers{display:block;}
+.instagram{margin-top:30px;}
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.section-description {
+    text-align: center;
+}
+
+.featured-flowers {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.our-flowers {
+    margin-top: 30px;
+}
+
+.flowers {
+    display: block;
+}
 
 /* main part styles */
-.main{max-width: 1920px;
-margin:0 auto;}
+.main {
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top:30px;
+}
 
-.color{color:#E55473;}
+.color {
+    color: #E55473;
+}
 
-.hot-deals{display:flex;
-align-items:center;
-text-align: center;}
-.section-title{text-align: center;}
-.text-description{text-align: center;}
+.hot-deals {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
-.flower-container{display: flex;
-gap: 24px;}
+.section-title {
+    text-align: center;
+    margin-top:10px;
+}
 
-.flower-background{background-image: url('../images/Rectangle\ 9.png');}
+.text-description {
+    text-align: center;
+}
+
+.flower-container {
+    display: flex;
+    gap: 24px;
+}
+
+.flower-background {
+    background-image: url('../images/Rectangle\ 9.png');
+    max-width:0 auto;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+}
+
+.subscribe {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 30px;
+}
 
 /* footer related styles */
-.footer-container{background-color: black;
-max-width:1920px;
-max-height: 450px;}
-.footer-description{color:#FFFFFF;
-text-align:center;}
-.color-1{color:#FFFFFF;}
-.subcribe{display:flex;
-justify-content: center;}
+.footer-container {
+    background-color: black;
+    max-width: 1920px;
+    max-height: 450px;
+    margin-top: 30px;
+}
+
+.footer-description {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.color-1 {
+    color: #FFFFFF;
+}
+
+.subcribe {
+    display: flex;
+    justify-content: center;
+}
